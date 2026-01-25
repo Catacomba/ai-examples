@@ -25,7 +25,6 @@ begin
   if not IBQuery1.Active then
     IBQuery1.Open;
 
-
   frxReport1.ShowReport();
 end;
 ```
